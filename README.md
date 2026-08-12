@@ -2,6 +2,8 @@
 
 ### Computer Engineer • Software Developer • Cybersecurity Enthusiast
 
+<p align="center"> <a href="https://eimans-portfolio.vercel.app"> <img src="https://img.shields.io/badge/🌐%20Portfolio-Visit%20My%20Portfolio-181717?style=for-the-badge" /> </a> <a href="https://www.linkedin.com/in/eimanespedido/"> <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> </p>
+
 ```text
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
@@ -145,16 +147,6 @@ A few things I got up to along the way:
 🤝 Volunteer — ACES Community Development Projects
 🌐 WebDev Associate — ACES
 
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EjayEspedido&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EjayEspedido&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
-
----
 
 ## 🐍 Contribution Graph
 
@@ -172,11 +164,7 @@ I'm currently interested in opportunities involving:
 
 If you're building something interesting, feel free to reach out.
 
-<p align="center">
 
-`Build → Break → Learn → Secure → Repeat`
-
-</p>
 
 ---
 
