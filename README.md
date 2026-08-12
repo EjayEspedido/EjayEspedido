@@ -76,44 +76,132 @@ Areas I'm interested in:
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
 
-### 🥊 FitFighter — AI-Based Fitness Punching Game
+### 🥊 [Fit Fighter UI](https://github.com/EjayEspedido/fit-fighter-ui)
 
-A hardware + software fitness game built at De La Salle Lipa.
+**IoT-Powered Gamified Fitness & Arcade Training System**
 
-**Stack:** `Python` `Raspberry Pi` `React` `JavaScript` `Machine Learning`
+An interactive fitness platform combining physical strike-target hardware with a real-time web application.
 
-The project combines impact sensors, software, and gamification to encourage physical activity.
+**Tech Stack**
 
-⚡ Punch detection using impact sensors
-💡 LED feedback for player interaction
-📊 Tracks punch speed, reaction time, and session performance
-🧠 Adaptive difficulty based on user performance
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge\&logo=raspberrypi\&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge)
 
-Basically:
+**Highlights**
+
+* 🎯 Multiple interactive game modes including Rhythm / Reflex, Combo Master, and Friend or Foe
+* 🍓 Raspberry Pi + GPIO integration for physical strike targets
+* ⚡ MQTT + Socket.IO bridge for real-time hardware communication
+* 🩻 Web Bluetooth integration for live heart-rate monitoring
+* 🏆 Firebase Authentication and Firestore-powered global leaderboards
+* 📊 Tracks performance metrics including score, accuracy, hits, calories, and workout history
 
 ```text
-        👊
+Physical Strike Pads
         │
         ▼
-   Impact Sensor
+ Raspberry Pi
+        │
+      MQTT
         │
         ▼
-   Raspberry Pi
-        │
-        ├──────────► LED Feedback
+ Express + Socket.IO
         │
         ▼
-   Game / Metrics
+ React + TypeScript
         │
-        ▼
- Adaptive Difficulty
+   ┌────┴────┐
+   ▼         ▼
+Firebase   Bluetooth
+Firestore  Heart Rate
+   │
+   ▼
+Global Leaderboards
 ```
 
-The project was designed around the idea of turning exercise into something that feels more like a game.
+[→ View Project](https://github.com/EjayEspedido/fit-fighter-ui)
 
 ---
+
+### ✍️ [Blogorum](https://github.com/EjayEspedido/Blogorum)
+
+**Flutter + Supabase Social Blogging Platform**
+
+A forum-style blogging platform designed around sharing thoughts, experiences, images, and everyday moments.
+
+**Tech Stack**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge\&logo=flutter\&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge\&logo=dart\&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
+
+**Highlights**
+
+* 🔐 User authentication and profiles
+* 📝 Full post creation, editing, deletion, and multi-image uploads
+* ❤️ Likes and comments with authenticated interactions
+* 🔎 Search by post title and username
+* 🖼️ Image galleries and comment attachments
+* 📄 Paginated social feed with pull-to-refresh
+* 🌙 Responsive UI with light and dark themes
+* 🛡️ PostgreSQL backend with Row Level Security
+
+```text
+Flutter
+   │
+   ▼
+┌──────────────────────┐
+│      Blogorum        │
+│                      │
+│ Posts • Comments     │
+│ Likes • Search       │
+│ Profiles • Images    │
+└──────────┬───────────┘
+           │
+           ▼
+       Supabase
+       ├── Auth
+       ├── PostgreSQL
+       └── Storage
+```
+
+[→ View Project](https://github.com/EjayEspedido/Blogorum)
+
+---
+
+### 🧠 Why These Two?
+
+They represent the two sides of what I like building:
+
+**Software** → applications, interfaces, backend systems, databases
+
+**Systems** → hardware, networking, real-time communication, security
+
+```text
+             SOFTWARE
+                │
+        ┌───────┴───────┐
+        │               │
+     Blogorum       Fit Fighter
+        │               │
+     Flutter        React / TS
+     Supabase       Firebase
+     PostgreSQL     Raspberry Pi
+                    MQTT / IoT
+        │               │
+        └───────┬───────┘
+                │
+         BUILD • LEARN
+         • EXPERIMENT
+```
+
 
 ## 🔐 Cybersecurity
 
